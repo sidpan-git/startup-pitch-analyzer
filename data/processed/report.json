@@ -1,0 +1,466 @@
+{
+    "scores": {
+        "General": 3.0,
+        "Problem Clarity": 3.0,
+        "Solution Differentiation": 4.0,
+        "Traction": 3.7,
+        "Team Credibility": 5.0,
+        "Ask Clarity": 3.0
+    },
+    "radar_chart_path": "data/processed/radar_chart.png",
+    "verdict": "This pitch deck scored an average of 3.6/5. It demonstrates strengths in Solution Differentiation, Team Credibility. However, it requires significant improvements in General, Problem Clarity, Ask Clarity before presenting to investors. Overall, it shows promise but needs refinement.",
+    "priority_fixes": [
+        {
+            "dimension": "Problem Clarity",
+            "slide_number": 4,
+            "score": 1,
+            "issue": "The slide does not clearly articulate the specific problem or pain point that the company's solution addresses for its target customers. It focuses on market opportunity and timing, not the problem itself.",
+            "suggestion": "Create a dedicated 'Problem' slide that clearly defines the specific pain point experienced by the target customer, quantifies its impact, and explains why current solutions are inadequate. This slide should be renamed and placed in the 'Market' or 'Timing' section."
+        },
+        {
+            "dimension": "Traction",
+            "slide_number": 6,
+            "score": 2,
+            "issue": "The slide presents projected or theoretical unit economics and revenue stream breakdowns without providing actual, verifiable historical data on customer acquisition, revenue generated, or current LTV/CAC figures to substantiate traction.",
+            "suggestion": "To demonstrate traction, the slide must include actual revenue figures, current customer counts for each stream, and historical data points for the unit economics (LTV, CAC, payback) based on existing operations, clearly distinguishing between achieved metrics and future projections."
+        },
+        {
+            "dimension": "General",
+            "slide_number": 1,
+            "score": 3,
+            "issue": "The slide clearly states the company's focus and funding details, but it lacks a compelling hook or a more specific value proposition that immediately differentiates it or highlights the urgency of the problem it solves.",
+            "suggestion": "Refine the subtitle to include a more compelling problem statement or a unique, impactful value proposition that immediately conveys the company's mission and differentiation, e.g., 'NovaMed AI: Revolutionizing Rural Diagnostics to Save Lives and Bridge Healthcare Gaps.'"
+        },
+        {
+            "dimension": "Ask Clarity",
+            "slide_number": 10,
+            "score": 3,
+            "issue": "The slide lacks a detailed breakdown of how the $12M will be specifically allocated across different functions (e.g., R&D, sales, operations) and does not clearly articulate the key milestones or runway this funding will achieve.",
+            "suggestion": "Add a clear breakdown of how the $12M will be allocated (e.g., 40% R&D, 30% S&M, 20% G&A, 10% CapEx) and link it to 2-3 key milestones that will be achieved with this funding, demonstrating a clear path to the next stage."
+        }
+    ],
+    "slide_details": [
+        {
+            "slide_number": 1,
+            "raw_text": "NovaMed AI AI-Powered Diagnostic Intelligence for Rural Healthcare Series A  \u2022  $12M Round  \u2022  April 2026 Dr. Ananya Sharma, CEO & Co-Founder ananya@novamed.ai  |  +91-98765-43210 www.novamed.ai",
+            "slide_type": "Unknown",
+            "readability_score": 7.651818181818182,
+            "jargon_score": 0.0,
+            "ner_entities": {
+                "organizations": [],
+                "monetary_values": [
+                    "12"
+                ],
+                "dates": [
+                    "43210",
+                    "April 2026"
+                ],
+                "percentages": []
+            },
+            "claim_density": 0.0,
+            "llm_evaluation": {
+                "dimension": "General",
+                "claim_identified": "The company, NovaMed AI, provides AI-Powered Diagnostic Intelligence for Rural Healthcare, is raising a $12M Series A round targeting April 2026, and introduces its CEO & Co-Founder, Dr. Ananya Sharma.",
+                "evidence_found": false,
+                "missing_concern": "The slide clearly states the company's focus and funding details, but it lacks a compelling hook or a more specific value proposition that immediately differentiates it or highlights the urgency of the problem it solves.",
+                "score": 3,
+                "rationale": "This is a functional and clear title slide, but it's somewhat generic and misses an opportunity to immediately capture investor attention with a stronger value proposition or problem statement.",
+                "fix_suggestion": "Refine the subtitle to include a more compelling problem statement or a unique, impactful value proposition that immediately conveys the company's mission and differentiation, e.g., 'NovaMed AI: Revolutionizing Rural Diagnostics to Save Lives and Bridge Healthcare Gaps.'"
+            }
+        },
+        {
+            "slide_number": 2,
+            "raw_text": "THE PROBLEM 68% of India's population lives in rural areas with < 1 doctor per 10,000 people 4.2 hrs average travel time for a rural patient to reach the nearest diagnostic center \u20b918,000 Cr lost annually in GDP due to delayed diagnosis and preventable disease escalation India's rural healthcare crisis is not a supply problem \u2014 it's an intelligence gap. \u2022 PHCs (Primary Health Centers) have equipment but lack trained radiologists and pathologists. \u2022 73% of misdiagnoses in Tier-3 towns originate from human fatigue during high patient loads (>80/day). \u2022 Government schemes (Ayushman Bharat) cover treatment costs \u2014 but patients arrive too late because early diagnosis never happened.",
+            "slide_type": "Problem",
+            "readability_score": 13.767960784313725,
+            "jargon_score": 0.0,
+            "ner_entities": {
+                "organizations": [
+                    "Cr",
+                    "\u2022 Government",
+                    "PROBLEM"
+                ],
+                "monetary_values": [
+                    "18,000"
+                ],
+                "dates": [
+                    "80/day",
+                    "annually"
+                ],
+                "percentages": [
+                    "10,000",
+                    "68%",
+                    "73%",
+                    "4.2",
+                    "1"
+                ]
+            },
+            "claim_density": 0.26,
+            "llm_evaluation": {
+                "dimension": "Problem Clarity",
+                "claim_identified": "India faces a severe rural healthcare crisis characterized by a lack of doctors, long travel times for diagnostics, significant GDP loss due to delayed diagnoses, and an 'intelligence gap' where existing infrastructure lacks trained specialists, leading to high rates of misdiagnosis and ineffective government schemes.",
+                "evidence_found": true,
+                "missing_concern": "While the data is compelling, the slide does not explicitly state the sources for the presented statistics, which could enhance credibility.",
+                "score": 5,
+                "rationale": "The slide clearly articulates a massive, quantified problem with specific pain points and reframes the core issue as an 'intelligence gap,' demonstrating deep understanding.",
+                "fix_suggestion": "Consider adding sources for key statistics (e.g., '68% of India's population...' - Source: [Report Name, Year]) to further bolster credibility."
+            }
+        },
+        {
+            "slide_number": 3,
+            "raw_text": "OUR SOLUTION NovaMed AI is an edge-deployed diagnostic assistant that brings specialist-grade analysis to every Primary Health Center in India. \ud83d\udd2c  AI Radiology Engine Analyzes X-ray, ultrasound & retinal scans with 96.3% accuracy (validated on 1.2M anonymized images from AIIMS & CMC Vellore). Runs on-device in <8 seconds per scan. \ud83e\ude78  Smart Lab Interpreter Processes CBC, LFT, KFT reports and flags critical deviations with differential diagnosis suggestions. Integrates with 14 common Indian lab-machine OEMs via HL7/FHIR. \ud83d\udcf1  Offline-First Architecture Full functionality on \u20b912,000 Android tablets with no internet. Data syncs automatically when connectivity resumes. Designed for 2G/3G networks. \ud83d\udde3\ufe0f  Multilingual Voice UX Hindi, Tamil, Telugu, Bengali, Marathi voice-guided workflows so ASHA workers with minimal training can operate the system independently.",
+            "slide_type": "Solution",
+            "readability_score": 13.190414673046256,
+            "jargon_score": 0.0,
+            "ner_entities": {
+                "organizations": [
+                    "KFT",
+                    "Marathi",
+                    "every Primary Health Center",
+                    "LFT",
+                    "Android",
+                    "AI Radiology Engine Analyzes",
+                    "AIIMS & CMC Vellore",
+                    "Smart Lab Interpreter Processes CBC",
+                    "Offline-First Architecture Full"
+                ],
+                "monetary_values": [
+                    "12,000"
+                ],
+                "dates": [],
+                "percentages": [
+                    "14",
+                    "96.3%",
+                    "1.2"
+                ]
+            },
+            "claim_density": 0.11,
+            "llm_evaluation": {
+                "dimension": "Solution Differentiation",
+                "claim_identified": "The founder claims NovaMed AI offers a uniquely tailored and robust diagnostic assistant for Indian Primary Health Centers, differentiated by its edge-deployed AI Radiology Engine (96.3% accuracy, <8s on-device), Smart Lab Interpreter (integrates with 14 OEMs), Offline-First Architecture (on cheap Android tablets, 2G/3G compatible), and Multilingual Voice UX (for ASHA workers).",
+                "evidence_found": true,
+                "missing_concern": "The slide doesn't explicitly address how this specific combination of features creates a defensible competitive moat against other potential AI diagnostic solutions or existing (even if rudimentary) diagnostic workflows, nor does it name potential competitors and explain why NovaMed AI is superior.",
+                "score": 4,
+                "rationale": "The slide effectively details a highly tailored and technically robust solution with strong evidence, but it could more explicitly articulate its unique competitive differentiation in the market.",
+                "fix_suggestion": "Add a concise statement or section that directly addresses competitive differentiation, explaining why this specific combination of edge AI, offline-first, and multilingual UX creates a superior or unique offering compared to existing or potential solutions in the market."
+            }
+        },
+        {
+            "slide_number": 4,
+            "raw_text": "MARKET OPPORTUNITY TAM $47B Global AI in Healthcare Diagnostics (2028E) CAGR 38.4% \u2014 Grand View Research SAM $8.2B India AI-Assisted Diagnostics + Rural Health-Tech Market (2028E) SOM $420M Year 5 Revenue Target 155,000 PHCs \u00d7 \u20b928,000 SaaS Annual License Why Now? \u2022 National Digital Health Mission (ABDM) mandates digitized records at all PHCs by 2027 \u2014 creating a greenfield integration opportunity. \u2022 Edge AI chips (Qualcomm QCS6490) now deliver 12 TOPS in a \u20b93,000 module \u2014 making on-device inference commercially viable for the first time. \u2022 62% of state NHM budgets now have a dedicated line-item for health-tech procurement (up from 18% in 2022).",
+            "slide_type": "Problem",
+            "readability_score": 11.05416666666667,
+            "jargon_score": 0.038,
+            "ner_entities": {
+                "organizations": [
+                    "Grand View Research",
+                    "Healthcare Diagnostics",
+                    "NHM",
+                    "Qualcomm QCS6490",
+                    "ABDM",
+                    "Global AI"
+                ],
+                "monetary_values": [
+                    "47B",
+                    "\u20b93,000",
+                    "28,000",
+                    "420"
+                ],
+                "dates": [
+                    "2028E",
+                    "2027",
+                    "2022"
+                ],
+                "percentages": [
+                    "62%",
+                    "155,000",
+                    "18%",
+                    "38.4%",
+                    "12"
+                ]
+            },
+            "claim_density": 0.07,
+            "llm_evaluation": {
+                "dimension": "Problem Clarity",
+                "claim_identified": "The founder claims there is a large and growing market opportunity for AI in healthcare diagnostics, particularly in India, and that the timing is opportune due to government mandates, technological advancements, and increased health-tech budgets.",
+                "evidence_found": true,
+                "missing_concern": "The slide does not clearly articulate the specific problem or pain point that the company's solution addresses for its target customers. It focuses on market opportunity and timing, not the problem itself.",
+                "score": 1,
+                "rationale": "While strong on market opportunity and timing, this slide completely misses articulating the specific problem the company aims to solve for its customers.",
+                "fix_suggestion": "Create a dedicated 'Problem' slide that clearly defines the specific pain point experienced by the target customer, quantifies its impact, and explains why current solutions are inadequate. This slide should be renamed and placed in the 'Market' or 'Timing' section."
+            }
+        },
+        {
+            "slide_number": 5,
+            "raw_text": "TRACTION & MILESTONES 312 PHCs Live across Rajasthan, UP, Madhya Pradesh 1.8M Scans Processed since Jan 2025 pilot (42% MoM growth) \u20b94.7 Cr ARR as of March 2026 (NRR 128%) Q2 2024 Founded. Secured \u20b92.5 Cr pre-seed from India Quotient & Titan Capital. Q4 2024 Completed clinical validation at AIIMS Jodhpur \u2014 96.3% concordance with senior radiologists (n=12,400). Q1 2025 Signed MoU with Rajasthan NHM (National Health Mission) \u2014 150 PHCs in first batch. Q3 2025 Expanded to UP & MP. Partnership with SRL Diagnostics for lab-machine integration. Q1 2026 Crossed \u20b94 Cr ARR. Selected for WHO Digital Health Innovation Cohort. FDA 510(k) pre-submission filed.",
+            "slide_type": "Traction",
+            "readability_score": 6.540000000000003,
+            "jargon_score": 0.019,
+            "ner_entities": {
+                "organizations": [
+                    "WHO Digital Health Innovation Cohort",
+                    "TRACTION & MILESTONES 312",
+                    "SRL Diagnostics",
+                    "Cr ARR",
+                    "FDA",
+                    "India Quotient & Titan Capital",
+                    "Madhya Pradesh 1.8M Scans",
+                    "UP & MP",
+                    "Rajasthan NHM",
+                    "UP"
+                ],
+                "monetary_values": [
+                    "2.5",
+                    "4.7"
+                ],
+                "dates": [
+                    "March 2026",
+                    "Jan 2025",
+                    "Q2 2024",
+                    "2024"
+                ],
+                "percentages": [
+                    "96.3%",
+                    "128%",
+                    "42%",
+                    "150"
+                ]
+            },
+            "claim_density": 0.07,
+            "llm_evaluation": {
+                "dimension": "Traction",
+                "claim_identified": "The founder is claiming significant operational traction (PHCs live, scans processed), strong financial performance (ARR, NRR, MoM growth), and key milestones achieved (funding, clinical validation, partnerships, regulatory progress, industry recognition).",
+                "evidence_found": true,
+                "missing_concern": "The slide lacks crucial unit economics (e.g., CAC, LTV, gross margins) and deeper insights into customer acquisition channels, customer concentration, and explicit churn rates beyond NRR.",
+                "score": 5,
+                "rationale": "The slide provides exceptional, multi-faceted, and well-quantified traction, demonstrating strong operational execution, significant revenue growth, and key strategic milestones.",
+                "fix_suggestion": "Add key unit economics (e.g., CAC, LTV, gross margin) and provide more context on customer acquisition channels and retention beyond NRR, perhaps a breakdown of revenue by customer type or region to address potential concentration risks."
+            }
+        },
+        {
+            "slide_number": 6,
+            "raw_text": "BUSINESS MODEL B2G SaaS License 65% of Revenue Annual per-PHC license (\u20b928,000/yr) sold through state NHM tenders. 3-year lock-in with auto-renewal. Includes OTA model updates & support. B2B API Access 20% of Revenue Diagnostic chains (SRL, Thyrocare, Metropolis) pay \u20b93.50 per scan analysis via API. Minimum commitment: 50,000 scans/month. Hardware Bundle 10% of Revenue Pre-configured NovaMed Edge Kit (tablet + AI module + adapters) at \u20b945,000. 30% gross margin. Sold to PHCs without existing tablets. Data Insights (De-identified) 5% of Revenue Aggregated, anonymized epidemiological data sold to pharma companies and public health researchers. HIPAA & DPDP Act compliant. Unit Economics (per PHC): LTV: \u20b984,000 (3-yr avg tenure)  |  CAC: \u20b96,200 (govt tender channel)  |  LTV:CAC = 13.5x  |  Payback: 2.6 months",
+            "slide_type": "Traction",
+            "readability_score": 8.998230088495575,
+            "jargon_score": 0.017,
+            "ner_entities": {
+                "organizations": [
+                    "SRL",
+                    "NHM",
+                    "Data Insights",
+                    "LTV",
+                    "Payback",
+                    "Thyrocare",
+                    "Revenue Diagnostic",
+                    "HIPAA & DPDP Act",
+                    "API",
+                    "Unit Economics",
+                    "OTA",
+                    "CAC"
+                ],
+                "monetary_values": [
+                    "3.50",
+                    "45,000",
+                    "84,000",
+                    "28,000",
+                    "6,200"
+                ],
+                "dates": [
+                    "3-year",
+                    "2.6 months",
+                    "/month"
+                ],
+                "percentages": [
+                    "30%",
+                    "5%",
+                    "10%",
+                    "50,000",
+                    "3",
+                    "65%",
+                    "20%"
+                ]
+            },
+            "claim_density": 0.11,
+            "llm_evaluation": {
+                "dimension": "Traction",
+                "claim_identified": "The founder is claiming a viable and scalable business model with strong unit economics (LTV:CAC of 13.5x, 2.6 months payback) across diversified revenue streams.",
+                "evidence_found": false,
+                "missing_concern": "The slide presents projected or theoretical unit economics and revenue stream breakdowns without providing actual, verifiable historical data on customer acquisition, revenue generated, or current LTV/CAC figures to substantiate traction.",
+                "score": 2,
+                "rationale": "While the business model is clearly articulated with impressive projected unit economics, the slide provides no actual evidence of current traction or achieved metrics.",
+                "fix_suggestion": "To demonstrate traction, the slide must include actual revenue figures, current customer counts for each stream, and historical data points for the unit economics (LTV, CAC, payback) based on existing operations, clearly distinguishing between achieved metrics and future projections."
+            }
+        },
+        {
+            "slide_number": 7,
+            "raw_text": "COMPETITIVE LANDSCAPE Feature NovaMed AI Qure.ai Google Health 5C Network Offline / Edge AI \u2705  Full offline \u274c  Cloud only \u274c  Cloud only \u26a0\ufe0f  Partial Radiology + Pathology \u2705  Both \u2705  Radiology \u2705  Radiology \u2705  Radiology Multilingual Voice UX \u2705  5 languages \u274c  English \u274c  English \u274c  English Govt. Tender Ready \u2705  GEM listed \u26a0\ufe0f  Limited \u274c  No \u26a0\ufe0f  Limited Price (per PHC / yr) \u20b928,000 \u20b91,20,000 N/A (pilot) \u20b985,000 Clinical Validation (India) AIIMS, CMC Narayana Apollo (US) Manipal Edge Hardware Bundle \u2705  \u20b945K kit \u274c \u274c \u274c Our moat: Only player with offline-first edge AI + multilingual voice + government procurement readiness \u2014 purpose-built for Bharat's PHCs.",
+            "slide_type": "Market",
+            "readability_score": 17.950487804878055,
+            "jargon_score": 0.0,
+            "ner_entities": {
+                "organizations": [
+                    "Clinical Validation",
+                    "Bharat",
+                    "CMC",
+                    "Radiology Multilingual Voice",
+                    "N/A",
+                    "GEM"
+                ],
+                "monetary_values": [
+                    "\u20b945",
+                    "28,000",
+                    "85,000"
+                ],
+                "dates": [],
+                "percentages": [
+                    "5"
+                ]
+            },
+            "claim_density": 0.13
+        },
+        {
+            "slide_number": 8,
+            "raw_text": "THE TEAM DAS Dr. Ananya Sharma CEO & Co-Founder MBBS (AIIMS Delhi), MBA (ISB Hyderabad). Former McKinsey Healthcare Practice (3 yrs). Led digital health rollout for Rajasthan NHM reaching 2M patients. Published 4 papers on AI diagnostics in The Lancet Digital Health. VP Vikram Patel CTO & Co-Founder B.Tech CS (IIT Bombay), MS ML (Stanford). Ex-Google Brain \u2014 shipped on-device ML for Android Health Sensors. 3 patents in edge inference optimization. Built Qualcomm's first medical-grade AI benchmark suite. DPM Dr. Priya Menon Chief Medical Officer MD Radiology (CMC Vellore), Fellowship (Johns Hopkins). 15 years in tele-radiology, interpreted 200K+ scans. Board member of Indian Radiology & Imaging Association. Designed NovaMed's clinical validation protocol. RI Rajesh Iyer VP of Government Relations IAS (Retd.), former Additional Secretary, MoHFW. Architected the Ayushman Bharat hospital empanelment process. Personal network across 18 state NHM directors. Led \u20b94,000 Cr procurement for national health IT infrastructure.",
+            "slide_type": "Team",
+            "readability_score": 9.736622807017543,
+            "jargon_score": 0.0,
+            "ner_entities": {
+                "organizations": [
+                    "ISB Hyderabad",
+                    "CTO & Co-Founder B.Tech CS",
+                    "Ex-Google Brain",
+                    "McKinsey Healthcare Practice",
+                    "NHM",
+                    "DAS",
+                    "Indian Radiology & Imaging Association",
+                    "The Lancet Digital Health",
+                    "DPM",
+                    "IIT Bombay",
+                    "NovaMed",
+                    "Government Relations IAS",
+                    "Stanford",
+                    "ML for",
+                    "Rajasthan NHM",
+                    "Johns Hopkins",
+                    "MS ML"
+                ],
+                "monetary_values": [],
+                "dates": [
+                    "15 years"
+                ],
+                "percentages": [
+                    "2",
+                    "200K+",
+                    "3",
+                    "4",
+                    "18"
+                ]
+            },
+            "claim_density": 0.07,
+            "llm_evaluation": {
+                "dimension": "Team Credibility",
+                "claim_identified": "The founders are claiming they have an exceptionally qualified and experienced team with deep expertise across healthcare, AI/ML, government relations, and business, making them uniquely capable of executing their vision.",
+                "evidence_found": true,
+                "missing_concern": "While individual credentials are top-tier, the slide doesn't address the team's dynamic, how the co-founders met, their shared vision, or their collective 'why now' for tackling this specific problem, which are crucial for assessing early-stage team cohesion and long-term commitment.",
+                "score": 5,
+                "rationale": "This is an exceptionally strong team on paper, boasting a rare combination of deep medical, technical, business, and government expertise critical for success in the healthcare technology sector.",
+                "fix_suggestion": "Add a brief narrative explaining how the co-founders came together, their shared passion for the problem, and how their combined experience creates a unique advantage beyond individual resumes. Consider adding a small section for key advisors if they exist."
+            }
+        },
+        {
+            "slide_number": 9,
+            "raw_text": "FINANCIALS & USE OF FUNDS Metric FY25 (Actual) FY26 (Current) FY27 (Proj) FY28 (Proj) Revenue \u20b91.2 Cr \u20b94.7 Cr \u20b918.5 Cr \u20b952 Cr Gross Margin 58% 64% 72% 78% PHCs Active 85 312 1,200 3,800 Burn Rate (mo) \u20b938L \u20b952L \u20b965L \u20b948L Runway 8 months Post-raise: 24 mo \u2014 Cash-flow +ve Raising: $12M Series A (\u20b9100 Cr) Lead: Nexus Venture Partners (term sheet signed) R&D & Product (40%) \u20b940 Cr Pathology V2 engine, FDA clearance, multilingual expansion to 12 languages GTM & Expansion (30%) \u20b930 Cr Scale to 8 states, build 15-person govt sales team, attend 24 state NHM tenders Infrastructure (15%) \u20b915 Cr Edge hardware inventory, HIPAA-grade cloud infra, SOC 2 Type II certification Team & Ops (15%) \u20b915 Cr Hire 60 engineers (ML, embedded, full-stack), open Bengaluru R&D center",
+            "slide_type": "Traction",
+            "readability_score": 14.020396825396826,
+            "jargon_score": 0.023,
+            "ner_entities": {
+                "organizations": [
+                    "ML",
+                    "GTM & Expansion",
+                    "NHM",
+                    "FINANCIALS & USE OF FUNDS Metric",
+                    "FDA",
+                    "Infrastructure",
+                    "Cr Scale",
+                    "Cr Edge",
+                    "SOC 2 Type II certification Team & Ops"
+                ],
+                "monetary_values": [
+                    "15",
+                    "$12M Series",
+                    "40",
+                    "1.2",
+                    "100",
+                    "52L",
+                    "30"
+                ],
+                "dates": [
+                    "8 months"
+                ],
+                "percentages": [
+                    "24",
+                    "15",
+                    "30%",
+                    "15%",
+                    "58%",
+                    "78%",
+                    "40%",
+                    "64%",
+                    "60",
+                    "85",
+                    "72%",
+                    "8",
+                    "12"
+                ]
+            },
+            "claim_density": 0.06,
+            "llm_evaluation": {
+                "dimension": "Traction",
+                "claim_identified": "The founder claims significant historical growth in revenue and active PHCs, strong gross margins, and validation through a signed term sheet from Nexus Venture Partners, with clear financial projections and use of funds.",
+                "evidence_found": true,
+                "missing_concern": "The slide lacks detailed assumptions behind the aggressive financial projections, specific customer acquisition metrics (e.g., LTV/CAC, churn), and clarity on the increasing burn rate relative to growth.",
+                "score": 4,
+                "rationale": "The slide presents compelling historical growth, strong unit economics, and significant investor validation with a signed term sheet, though projections are aggressive and lack underlying assumptions.",
+                "fix_suggestion": "Clearly delineate actuals from projections, provide key assumptions for future growth, include additional operational metrics like LTV/CAC and churn, and offer context for the increasing burn rate."
+            }
+        },
+        {
+            "slide_number": 10,
+            "raw_text": "THE ASK $12M Series A to scale AI diagnostics from 312 to 3,800 PHCs by FY28 With your partnership, we will: \u2726  Save an estimated 42,000 lives annually through early detection \u2726  Reduce diagnostic costs by 85% for India's most underserved communities \u2726  Build the largest rural health AI dataset globally (50M+ data points by 2028) \u2726  Achieve cash-flow positivity by Q3 FY28 with 78% gross margins Let's talk. Dr. Ananya Sharma  \u2014  CEO & Co-Founder \ud83d\udce7  ananya@novamed.ai   |   \ud83d\udcde  +91-98765-43210 \ud83c\udf10  www.novamed.ai   |   LinkedIn: /in/ananya-sharma-novamed",
+            "slide_type": "Ask",
+            "readability_score": 10.287833333333335,
+            "jargon_score": 0.012,
+            "ner_entities": {
+                "organizations": [
+                    "ASK",
+                    "CEO & Co-Founder \ud83d\udce7  ananya@novamed.ai"
+                ],
+                "monetary_values": [
+                    "12"
+                ],
+                "dates": [
+                    "2028",
+                    "annually"
+                ],
+                "percentages": [
+                    "3,800",
+                    "Q3",
+                    "78%",
+                    "85%",
+                    "an estimated 42,000",
+                    "312"
+                ]
+            },
+            "claim_density": 0.14,
+            "llm_evaluation": {
+                "dimension": "Ask Clarity",
+                "claim_identified": "The founder is asking for $12M in Series A funding to scale AI diagnostics from 312 to 3,800 PHCs by FY28, projecting outcomes such as saving lives, reducing costs, building a global dataset, and achieving cash-flow positivity with high gross margins.",
+                "evidence_found": false,
+                "missing_concern": "The slide lacks a detailed breakdown of how the $12M will be specifically allocated across different functions (e.g., R&D, sales, operations) and does not clearly articulate the key milestones or runway this funding will achieve.",
+                "score": 3,
+                "rationale": "The ask amount and high-level purpose are clear, and the projected outcomes are ambitious and quantifiable, but the slide lacks a breakdown of how the $12M will be specifically deployed to achieve these goals.",
+                "fix_suggestion": "Add a clear breakdown of how the $12M will be allocated (e.g., 40% R&D, 30% S&M, 20% G&A, 10% CapEx) and link it to 2-3 key milestones that will be achieved with this funding, demonstrating a clear path to the next stage."
+            }
+        }
+    ]
+}

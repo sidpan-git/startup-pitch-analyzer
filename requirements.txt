@@ -1,0 +1,13 @@
+pdfplumber
+PyMuPDF
+python-pptx
+spacy
+nltk
+textstat
+google-genai
+pandas
+matplotlib
+plotly
+python-dotenv
+jupyter
+scikit-learn
